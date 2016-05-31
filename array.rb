@@ -1,6 +1,6 @@
 require './explicit_eval.rb'
 
-e = ExplcitEval.new
+e = ExplicitEval.new
 
 e.implicit 'a = [1,2,3]'
 e.implicit 'b = [1,2,4]'
